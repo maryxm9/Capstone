@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Project Title
+Best Boba 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Best Boba is a web application designed to help users discover the best-ranked bubble tea shops in Vancouver. Users can search for shops, view ratings, and find detailed information about each shop and its menu offerings.
 
-In the project directory, you can run:
+### Problem
 
-### `npm start`
+With the growing popularity of bubble tea, enthusiasts often struggle to find the highest quality shops. General review sites don't always cater specifically to one specific bubble tea, and it can be hard to distinguish between shops based on generic ratings. BubbleTea Finder addresses this issue by focusing solely on bubble tea.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### User Profile
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Bubble Tea Enthusiasts: Individuals who are passionate about bubble tea and want to find the best options.
+Casual Consumers: People who enjoy bubble tea occasionally and want recommendations for the best places.
 
-### `npm test`
+Users will use the app to:
+See rankings based on drink ratings.
+View detailed shop profiles, including ratings and menu items.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Features
 
-### `npm run build`
+- View detailed profiles of bubble tea shops, including their ratings, menu, hours of operation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- A ranking system that is based on user ratings for individual drink
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Location of the shops shown on maps
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Sort function (eg. highest rated this week)
 
-### `npm run eject`
+## Implementation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React, HTML, SCSS, JavaScript， Node, Express
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### APIs
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Yelp API 
+Google Maps API
 
-## Learn More
+### Sitemap
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Homepage: Showing top 3 ranking of the week with search bar and navigation bar on top
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Shop Profile: Detailed information about a specific bubble tea shop, including reviews and menu items.
 
-### Code Splitting
+### Mockups
+- Mockup.PNG in root
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Data
 
-### Analyzing the Bundle Size
+Describe your data and the relationships between them. You can show this visually using diagrams, or write it out. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Endpoints
 
-### Making a Progressive Web App
+List endpoints that your server will implement, including HTTP methods, parameters, and example responses.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Auth
 
-### Advanced Configuration
+## Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Scope your project as a sprint. Break down the tasks that will need to be completed and map out timeframes for implementation. Think about what you can reasonably complete before the due date. The more detail you provide, the easier it will be to build.
 
-### Deployment
+## Nice-to-haves
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+-User auth with Logins
+-Map integration (Not sure how this will be implemented yet)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
