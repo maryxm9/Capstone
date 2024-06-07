@@ -27,7 +27,7 @@ function BusinessMenu() {
             <div className="drink-img-container">
               <img
                 className="drink-img"
-                src={require(`../../assets/images/${drink.image}`).default}
+                src={`${process.env.PUBLIC_URL}/assets/images/${drink.image}`}
                 alt={drink.name}
               />
             </div>
