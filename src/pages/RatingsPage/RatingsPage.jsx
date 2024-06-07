@@ -5,7 +5,12 @@ import "./RatingsPage.scss";
 
 function RatingsPage() {
   const allDrinks = restaurantsData.restaurants.reduce((acc, curr) => {
-    return [...acc, ...curr.drinks];
+    const drinksWithStoreInfo = curr.drinks.map((drink) => ({
+      ...drink,
+      storeId: curr.id,
+      storeName: curr.name,
+    }));
+    return [...acc, ...drinksWithStoreInfo];
   }, []);
 
   // Highest to lowest rating
@@ -18,7 +23,7 @@ function RatingsPage() {
         <ul className="drink-container">
           {allDrinks.sort(compareRatings).map((drink) => (
             <li className="drink" key={drink.id}>
-              <Link to={`/business/${drink.id}`}>
+              <Link to={`/business/${drink.storeId}`}>
                 <div className="drink-row">
                   <div className="drink-img-container">
                     <img
@@ -30,7 +35,7 @@ function RatingsPage() {
                   <div className="drink-details">
                     <h3>{drink.name}</h3>
                     <p>Price: ${drink.price}</p>
-                    <p>Store: {drink.store}</p>
+                    <p>Store: {drink.storeName}</p>
                     <p>Rating: {drink.rating}</p>
                   </div>
                 </div>
@@ -44,3 +49,4 @@ function RatingsPage() {
 }
 
 export default RatingsPage;
+
