@@ -1,7 +1,8 @@
-import "./Navigation.scss";
+import React from "react";
 import { Link } from "react-router-dom";
+import "./Navigation.scss";
 
-function Navigation() {
+function Navigation({ searchTerm, setSearchTerm }) {
   return (
     <header className="header">
       <div className="nav">
@@ -18,6 +19,13 @@ function Navigation() {
           <Link className="nav__ratings" to="/ratings">
             <h3>Ratings</h3>
           </Link>
+          <input
+            type="text"
+            placeholder="Search businesses"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="search-input"
+          />
         </div>
       </div>
     </header>

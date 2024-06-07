@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import "./BusinessList.scss"; 
+import "./BusinessList.scss";
 
-function BusinessList() {
+function BusinessList({ searchTerm }) {
   const [businesses, setBusinesses] = useState([]);
-  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     axios
@@ -24,13 +23,6 @@ function BusinessList() {
 
   return (
     <div>
-      <input
-        type="text"
-        placeholder="Search businesses"
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        className="search-input"
-      />
       <ul className="business-container">
         {filteredBusinesses.map((business) => (
           <li className="business-list" key={business.id}>
