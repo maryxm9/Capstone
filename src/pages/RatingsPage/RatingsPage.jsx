@@ -4,6 +4,9 @@ import restaurantsData from '../../DrinksData.json';
 import './RatingsPage.scss';
 
 function RatingsPage() {
+  // Highest to lowest rating
+  const compareRatings = (a, b) => b.rating - a.rating;
+
   return (
     <div>
       <h1>Bubble Tea Ratings</h1>
@@ -12,7 +15,7 @@ function RatingsPage() {
           <div className="restaurant" key={restaurant.id}>
             <h2>{restaurant.name}</h2>
             <ul className="drink-container">
-              {restaurant.drinks.map((drink) => (
+              {restaurant.drinks.sort(compareRatings).map((drink) => (
                 <li className="drink" key={drink.id}>
                   <Link to={`/business/${restaurant.id}`}>
                     <div className="drink-img-container">
@@ -40,3 +43,4 @@ function RatingsPage() {
 }
 
 export default RatingsPage;
+
