@@ -1,10 +1,18 @@
 .drink-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    list-style: none;
 }
 
 //specifically target the images on ratings page
-a > div.drink-img-container > img {
+div > div.drink-img-container > img {
     width:150px;
     height: 150px;
 }
+
+.drink-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+

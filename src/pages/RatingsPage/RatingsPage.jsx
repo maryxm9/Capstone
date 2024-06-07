@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import restaurantsData from '../../DrinksData.json';
-import './RatingsPage.scss';
+import React from "react";
+import { Link } from "react-router-dom";
+import restaurantsData from "../../DrinksData.json";
+import "./RatingsPage.scss";
 
 function RatingsPage() {
   const allDrinks = restaurantsData.restaurants.reduce((acc, curr) => {
@@ -19,18 +19,20 @@ function RatingsPage() {
           {allDrinks.sort(compareRatings).map((drink) => (
             <li className="drink" key={drink.id}>
               <Link to={`/business/${drink.id}`}>
-                <div className="drink-img-container">
-                  <img
-                    className="drink-img"
-                    src={`${process.env.PUBLIC_URL}/assets/images/${drink.image}`}
-                    alt={drink.name}
-                  />
-                </div>
-                <div className="drink-details">
-                  <h3>{drink.name}</h3>
-                  <p>Price: ${drink.price}</p>
-                  <p>Store: {drink.store}</p>
-                  <p>Rating: {drink.rating}</p>
+                <div className="drink-row">
+                  <div className="drink-img-container">
+                    <img
+                      className="drink-img"
+                      src={`${process.env.PUBLIC_URL}/assets/images/${drink.image}`}
+                      alt={drink.name}
+                    />
+                  </div>
+                  <div className="drink-details">
+                    <h3>{drink.name}</h3>
+                    <p>Price: ${drink.price}</p>
+                    <p>Store: {drink.store}</p>
+                    <p>Rating: {drink.rating}</p>
+                  </div>
                 </div>
               </Link>
             </li>
