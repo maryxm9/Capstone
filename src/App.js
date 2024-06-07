@@ -5,6 +5,7 @@ import BusinessDetail from "./pages/BusinessDetail/BusinessDetail";
 import Navigation from "./components/Navigation/Navigation";
 import BusinessList from "./pages/BusinessList/BusinessList";
 import HomePage from "./pages/HomePage/HomePage";
+import RatingsPage from "./pages/RatingsPage/RatingsPage";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/businesses" element={<BusinessList searchTerm={searchTerm} />} />
           <Route path="/business/:id" element={<BusinessDetail />} />
+          <Route path="/ratings" element={<RatingsPage />} />
           <Route path="*" element={<h1>Page not found</h1>} />
         </Routes>
       </div>

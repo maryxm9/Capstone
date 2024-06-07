@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import DrinksData from '../../DrinksData.json';
 
 function HomePage() {
