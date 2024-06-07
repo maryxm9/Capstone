@@ -10,7 +10,7 @@
           "description": "A delicious blend of black tea and creamy milk, sweetened to perfection.",
           "image": "bt2.png",
           "price": 4.99,
-          "rating": 4.5
+          "rating": 1
         },
         {
           "id": "2",
@@ -27,7 +27,7 @@
       "name": "Macu Tea",
       "drinks": [
         {
-          "id": "1",
+          "id": "3",
           "name": "Matcha Milk Tea",
           "description": "A refreshing blend of matcha green tea, milk, and a touch of sweetness.",
           "image": "bt-placement.png",
@@ -35,7 +35,7 @@
           "rating": 2
         },
         {
-          "id": "2",
+          "id": "4",
           "name": "Brown Sugar Boba Milk",
           "description": "Rich and creamy milk with caramelized brown sugar and chewy tapioca pearls.",
           "image": "bt-placement.png",

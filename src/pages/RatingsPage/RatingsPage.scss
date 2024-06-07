@@ -1,0 +1,10 @@
+.drink-container {
+    display: flex;
+    flex-direction: row;
+}
+
+//specifically target the images on ratings page
+a > div.drink-img-container > img {
+    width:150px;
+    height: 150px;
+}
