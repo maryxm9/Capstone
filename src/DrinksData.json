@@ -2,6 +2,7 @@
   "restaurants": [
     {
       "id": "Bww8dzSpRTAVPAFoGCt44g",
+      "name": "Chi Cha San Sen",
       "drinks": [
         {
           "id": "1",
@@ -23,6 +24,7 @@
     },
     {
       "id": "D9e5fyBSt1vQRNSGypyChg",
+      "name": "Macu Tea",
       "drinks": [
         {
           "id": "1",
