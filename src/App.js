@@ -4,6 +4,7 @@ import "./App.scss";
 import BusinessDetail from "./pages/BusinessDetail/BusinessDetail";
 import Navigation from "./components/Navigation/Navigation";
 import BusinessList from "./pages/BusinessList/BusinessList";
+import HomePage from "./pages/HomePage/HomePage";
 
 function App() {
   return (
@@ -11,9 +12,9 @@ function App() {
       {<Navigation />}
       <div className="App">
         <header className="App-header">
-          <h1>Welcome to Best BOBA</h1>
         </header>
         <Routes>
+          <Route path="/" element={<HomePage />} />
           <Route path="/businesses" element={<BusinessList />} />
           <Route path="/business/:id" element={<BusinessDetail />} />
           <Route path="*" element={<h1>Page not found</h1>} />
