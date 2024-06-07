@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
+import BusinessMenu from "../../components/BusinessMenu/BusinessMenu";
 
 function BusinessDetail() {
   const { id } = useParams();
@@ -31,6 +32,7 @@ function BusinessDetail() {
       <a href={business.url} target="_blank" rel="noopener noreferrer">
         View on Yelp
       </a>
+      <BusinessMenu />
     </div>
   );
 }
