@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-container,
+.right-container {
+  flex: 1;
+  padding: 6rem;
+}
+
+.centered-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drink-container {
+  position: relative;
+}
+
+.drink-img {
+  width: 20vw;
+  height: auto;
+  z-index: 1000;
+}
+
+.spinning-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60vw;
+  height: auto;
+  border-radius: 50%;
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+.highest-rated{
+    &-title {
+    font-size: 40px;
+    }
+    &-name {
+        font-size: 30px;
+    }
+    &-shop {
+        font-size: 30px;
+    }
+}

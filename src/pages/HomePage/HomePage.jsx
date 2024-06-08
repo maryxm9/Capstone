@@ -1,5 +1,6 @@
 import React from "react";
 import DrinksData from "../../DrinksData.json";
+import "./HomePage.scss";
 
 function HomePage() {
   // Find the highest-rated bubble tea drink
@@ -16,17 +17,29 @@ function HomePage() {
   }
 
   return (
-    <div>
-      <h1>Welcome to the Bubble Tea Shop!</h1>
-      <h2>Highest Rated Bubble Tea:</h2>
-      <img
-        className="drink-img"
-        src={`${process.env.PUBLIC_URL}/assets/images/${highestRatedDrink.image}`}
-        alt={highestRatedDrink.name}
-      />
-      <p>Drink: {highestRatedDrink.name}</p>
-      <p>Shop Name: {shopName}</p>
-    </div>
+    <section className="container">
+      <div className="left-container">
+        <h2 className="highest-rated-title">Highest Rated Bubble Tea:</h2>
+      </div>
+      <div className="centered-container">
+        <div className="drink-container">
+          <img
+            className="drink-img"
+            src={`${process.env.PUBLIC_URL}/assets/images/${highestRatedDrink.image}`}
+            alt={highestRatedDrink.name}
+          />
+          <img
+            src={`${process.env.PUBLIC_URL}assets/images/Spin.png`}
+            alt="spin"
+            className="spinning-circle"
+          />
+        </div>
+      </div>
+      <div className="right-container">
+        <p className="highest-rated-name">{highestRatedDrink.name}</p>
+        <p className="highest-rated-shop">From: {shopName}</p>
+      </div>
+    </section>
   );
 }
 
