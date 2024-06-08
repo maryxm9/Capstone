@@ -1,32 +1,31 @@
 .star-rating {
-    display: flex;
-    align-items: center;
-  }
-  
-  .star {
-    font-size: 1.5rem;
-    color: #d3d3d3; 
-  }
-  
-  .full-star {
-    color: #FFD700; 
-  }
-  
-  .half-star {
-    position: relative;
-    color: #FFD700; 
-  }
-  
-  .half-star::before {
-    content: '★';
-    position: absolute;
-    left: 0;
-    width: 50%;
-    overflow: hidden;
-    color: #FFD700; 
-  }
-  
-  .empty-star {
-    color: #d3d3d3; 
-  }
-  
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  font-size: 1.5rem;
+  color: #d3d3d3; 
+}
+
+.full-star {
+  color: #FFD700; 
+}
+
+.half-star {
+  position: relative;
+  color: #FFD700; 
+}
+
+.half-star::before {
+  content: '★';
+  position: absolute;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+  color: #FFD700; 
+}
+
+.empty-star {
+  color: #d3d3d3; 
+}

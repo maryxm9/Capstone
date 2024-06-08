@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import restaurantsData from "../../DrinksData.json";
 import "./RatingsPage.scss";
+import StarRating from "../../components/StarRating/StarRating"; 
 
 function RatingsPage() {
   const allDrinks = restaurantsData.restaurants.reduce((acc, curr) => {
@@ -34,9 +35,10 @@ function RatingsPage() {
                   </div>
                   <div className="drink-details">
                     <h3>{drink.name}</h3>
-                    <p>Price: ${drink.price}</p>
+                    <p>${drink.price}</p>
                     <p>Store: {drink.storeName}</p>
-                    <p>Rating: {drink.rating}</p>
+                    <div className="star-ratings">
+                    <StarRating rating={drink.rating} />{drink.rating}</div>
                   </div>
                 </div>
               </Link>
