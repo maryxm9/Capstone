@@ -39,7 +39,7 @@ function RatingsPage() {
                       <Link to={`/business/${drink.storeId}`} className="rating-links">
                       <h3>{drink.name}</h3>
                       <p>${drink.price}</p>
-                      <p>Store: {drink.storeName}</p></Link>
+                      <p>{drink.storeName}</p></Link>
                     </div>
                     <div className="star-ratings">
                       <StarRating rating={drink.rating} />

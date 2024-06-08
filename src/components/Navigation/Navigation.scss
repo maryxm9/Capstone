@@ -42,5 +42,7 @@ h3 {
   &:hover {
     color: white;
     border-radius: 1.5625rem;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-5px);
   }
 }
