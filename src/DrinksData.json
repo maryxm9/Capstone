@@ -8,7 +8,7 @@
           "id": "1",
           "name": "Classic Milk Tea",
           "description": "A delicious blend of black tea and creamy milk, sweetened to perfection.",
-          "image": "bt2.png",
+          "image": "bt1.png",
           "price": 4.99,
           "rating": 1
         },
@@ -30,7 +30,7 @@
           "id": "3",
           "name": "Matcha Milk Tea",
           "description": "A refreshing blend of matcha green tea, milk, and a touch of sweetness.",
-          "image": "bt-placement.png",
+          "image": "bt3.png",
           "price": 5.99,
           "rating": 2
         },
@@ -38,7 +38,7 @@
           "id": "4",
           "name": "Brown Sugar Boba Milk",
           "description": "Rich and creamy milk with caramelized brown sugar and chewy tapioca pearls.",
-          "image": "bt-placement.png",
+          "image": "bt4.png",
           "price": 5.99,
           "rating": 3
         }

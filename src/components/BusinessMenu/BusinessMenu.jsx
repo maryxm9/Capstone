@@ -20,7 +20,6 @@ function BusinessMenu() {
 
   return (
     <div>
-      <h1>{restaurant.id}</h1>
       <ul className="drink-container">
         {restaurant.drinks.map((drink) => (
           <li className="drink-list" key={drink.id}>
