@@ -6,17 +6,35 @@
 
 //specifically target the images on ratings page
 div > div.drink-img-container > img {
-    width:150px;
+    width: 100%;
     height: 150px;
 }
 
 .drink-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .star-ratings {
     display: flex;
     gap:1rem;
+}
+
+.rating-links {
+    text-decoration: none;
+}
+
+.drink-details {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:50%;
+}
+
+.drink-details-left {
+    width:80%;
 }

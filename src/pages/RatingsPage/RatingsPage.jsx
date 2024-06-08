@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import restaurantsData from "../../DrinksData.json";
 import "./RatingsPage.scss";
-import StarRating from "../../components/StarRating/StarRating"; 
+import StarRating from "../../components/StarRating/StarRating";
 
 function RatingsPage() {
   const allDrinks = restaurantsData.restaurants.reduce((acc, curr) => {
@@ -24,9 +24,10 @@ function RatingsPage() {
         <ul className="drink-container">
           {allDrinks.sort(compareRatings).map((drink) => (
             <li className="drink" key={drink.id}>
-              <Link to={`/business/${drink.storeId}`}>
+              
                 <div className="drink-row">
                   <div className="drink-img-container">
+                    
                     <img
                       className="drink-img"
                       src={`${process.env.PUBLIC_URL}/assets/images/${drink.image}`}
@@ -34,14 +35,19 @@ function RatingsPage() {
                     />
                   </div>
                   <div className="drink-details">
-                    <h3>{drink.name}</h3>
-                    <p>${drink.price}</p>
-                    <p>Store: {drink.storeName}</p>
+                    <div className="drink-details-left">
+                      <Link to={`/business/${drink.storeId}`} className="rating-links">
+                      <h3>{drink.name}</h3>
+                      <p>${drink.price}</p>
+                      <p>Store: {drink.storeName}</p></Link>
+                    </div>
                     <div className="star-ratings">
-                    <StarRating rating={drink.rating} />{drink.rating}</div>
+                      <StarRating rating={drink.rating} />
+                      <p>{drink.rating.toFixed(1)}</p>
+                    </div>
                   </div>
                 </div>
-              </Link>
+              
             </li>
           ))}
         </ul>
@@ -51,4 +57,3 @@ function RatingsPage() {
 }
 
 export default RatingsPage;
-
