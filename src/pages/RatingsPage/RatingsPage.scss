@@ -15,6 +15,7 @@ div > div.drink-img-container > img {
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
+    padding: 0.5rem 10rem;
 }
 
 .star-ratings {
@@ -37,4 +38,13 @@ div > div.drink-img-container > img {
 
 .drink-details-left {
     width:80%;
+}
+
+p {
+  color:black;
+}
+
+ul {
+    margin:0;
+    padding:0;
 }
