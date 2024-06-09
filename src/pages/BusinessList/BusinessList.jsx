@@ -34,7 +34,7 @@ function BusinessList({ searchTerm }) {
                   alt={business.name}
                 />
               </div>
-              {business.name}
+              <p className="business-name">{business.name}</p>
             </Link>
           </li>
         ))}
