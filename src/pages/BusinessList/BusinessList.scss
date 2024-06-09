@@ -21,6 +21,10 @@
   &-list {
     list-style: none;
     position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+    &:hover {
+      transform: translateY(-5px);
+    }
   }
   &-link {
     text-decoration: none;
