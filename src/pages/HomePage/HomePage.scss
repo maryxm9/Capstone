@@ -1,17 +1,27 @@
 .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+ // align-items: center;
   height: 100vh;
-  background: 
-  linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
-  url("../../../public/assets/images/background1.jpg") center / cover no-repeat;
+  //background: 
+  //linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+  //url("../../../public/assets/images/background1.jpg") center / cover no-repeat;
+  background-color: rgba(97, 82, 82, 0.5) ;
 }
 
-.left-container,
+.left-container {
+  flex:1;
+  width: 33%;
+  align-items: center;
+  display: flex;
+}
 .right-container {
   flex: 1;
-  padding: 6rem;
+  width: 33%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .centered-container {
@@ -26,20 +36,20 @@
 }
 
 .drink-img {
-  width: 20vw;
+  width: 30vw;
   height: auto;
   z-index: 1000;
 }
 
 .spinning-circle {
   position: absolute;
-  top: 50%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 60vw;
-  height: auto;
+  width: 100vw;
   border-radius: 50%;
   animation: spin 10s linear infinite;
+  z-index: -2000;
 }
 
 @keyframes spin {
@@ -61,4 +71,8 @@
     &-shop {
         font-size: 30px;
     }
+}
+
+.No1-img {
+  width: 25vw;
 }

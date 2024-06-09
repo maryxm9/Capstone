@@ -20,6 +20,11 @@ function HomePage() {
     <section className="container">
       <div className="left-container">
         <h2 className="highest-rated-title">Highest Rated Bubble Tea:</h2>
+        {/* <img
+            className="drink-img"
+            src={`${process.env.PUBLIC_URL}/assets/images/No1.PNG`}
+            alt={highestRatedDrink.name}
+          /> */}
       </div>
       <div className="centered-container">
         <div className="drink-container">
