@@ -80,3 +80,34 @@ p {
 .menu-drink-list:hover .menu-drink-back {
   transform: scale(1.05) rotateY(180deg);
 }
+
+.rating-input {
+  margin-top: 10px;
+}
+
+.rating-input select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.rating-input select:hover {
+  background-color: #f1f1f1;
+}
+
+.rating-input button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.rating-input button:hover {
+  background-color: orange;
+}
