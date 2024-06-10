@@ -26,18 +26,15 @@ function BusinessDetail() {
   return (
     <div className="business-detail-container">
       <h1>{business.name}</h1>
-      {/* <img
-        className="detail-img"
-        src={business.image_url}
-        alt={business.name}
-      /> */}
       <div className="business-info">
-        <p>
-          <span className="info-label">Address:</span>{" "}
-          <span className="info-value">
-            {business.location.display_address.join(", ")}
-          </span>
-        </p>
+        {business.location && (
+          <p>
+            <span className="info-label">Address:</span>{" "}
+            <span className="info-value">
+              {business.location.display_address.join(", ")}
+            </span>
+          </p>
+        )}
         <p>
           <span className="info-label">Rating:</span>{" "}
           <span className="info-value">{business.rating}</span>
