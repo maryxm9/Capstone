@@ -17,7 +17,7 @@ function Navigation() {
             <h3>Businesses</h3>
           </Link>
           <Link className="nav__ratings" to="/ratings">
-            <h3>Ratings</h3>
+            <h3>Rankings</h3>
           </Link>
         </div>
       </div>

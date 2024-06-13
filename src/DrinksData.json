@@ -10,7 +10,7 @@
           "description": "Black tea, cream, and bubble.",
           "image": "bt1.png",
           "price": 8.5,
-          "rating": 4.8
+          "rating": 4
         },
         {
           "id": "2",
@@ -18,7 +18,7 @@
           "description": "Osmanthus oolong tea and honey.",
           "image": "bt2.png",
           "price": 7.5,
-          "rating": 4.7
+          "rating": 4
         },
         {
           "id": "3",
@@ -34,7 +34,7 @@
           "description": "High mountain pouchong tea, lemon juice, and mousse.",
           "image": "bt4.png",
           "price": 8.5,
-          "rating": 5.0
+          "rating": 4
         },
         {
           "id": "5",
@@ -58,7 +58,7 @@
           "description": "Dong-ding oolong tea.",
           "image": "bt2.png",
           "price": 6.5,
-          "rating": 5.0
+          "rating": 4
         },
         {
           "id": "8",
@@ -66,7 +66,7 @@
           "description": "High mountain pouchong tea.",
           "image": "bt3.png",
           "price": 6.5,
-          "rating": 5.0
+          "rating": 4
         },
         {
           "id": "9",
@@ -74,7 +74,7 @@
           "description": "Cassia black tea.",
           "image": "bt6.png",
           "price": 6.5,
-          "rating": 5.0
+          "rating": 4
         }
       ]
     },
@@ -96,7 +96,7 @@
           "description": "A delicious tea with real ruby grapefruit pieces.",
           "image": "macu2.png",
           "price": 8.5,
-          "rating": 4.7
+          "rating": 4
         },
         {
           "id": "macu3",
@@ -104,7 +104,7 @@
           "description": "A tangy Yakult drink with fresh grapefruit.",
           "image": "macu3.png",
           "price": 8.95,
-          "rating": 4.9
+          "rating": 3
         },
         {
           "id": "macu4",
@@ -112,7 +112,7 @@
           "description": "A mix of orange and passion fruit in tea.",
           "image": "macu4.png",
           "price": 9.5,
-          "rating": 5
+          "rating": 3.5
         },
         {
           "id": "macu5",
@@ -120,7 +120,7 @@
           "description": "Classic milk tea with chewy boba.",
           "image": "macu5.png",
           "price": 7.25,
-          "rating": 4.8
+          "rating": 3
         },
         {
           "id": "macu6",
@@ -128,7 +128,7 @@
           "description": "A flavorful milk tea with QQ and 3Q toppings.",
           "image": "macu6.png",
           "price": 7.5,
-          "rating": 5
+          "rating": 3
         },
         {
           "id": "macu7",
@@ -136,7 +136,7 @@
           "description": "Yakult drink blended with passion fruit.",
           "image": "macu1.png",
           "price": 8.95,
-          "rating": 4.7
+          "rating": 4
         },
         {
           "id": "macu8",
@@ -144,7 +144,7 @@
           "description": "Sweet honey drink with grapefruit pieces.",
           "image": "macu3.png",
           "price": 8.5,
-          "rating": 5
+          "rating": 3
         },
         {
           "id": "macu9",
@@ -152,7 +152,7 @@
           "description": "Golden leaf tea with a unique aroma.",
           "image": "macu2.png",
           "price": 7.25,
-          "rating": 4.9
+          "rating": 4
         }
       ]
     },
@@ -166,7 +166,7 @@
           "description": "A unique blend of various fruits for a refreshing taste.",
           "image": "bt1.png",
           "price": 6.9,
-          "rating": 5
+          "rating": 3
         },
         {
           "id": "1012",
@@ -174,7 +174,7 @@
           "description": "Classic milk tea topped with creamy ice cream.",
           "image": "bt2.png",
           "price": 7.5,
-          "rating": 5
+          "rating": 3
         },
         {
           "id": "1013",
@@ -182,7 +182,7 @@
           "description": "A flavorful combination of taro and oolong tea with milk.",
           "image": "bt4.png",
           "price": 7.9,
-          "rating": 5
+          "rating": 3
         },
         {
           "id": "1014",
@@ -190,7 +190,7 @@
           "description": "Tangy orange blended with yakult for a refreshing drink.",
           "image": "bt5.png",
           "price": 8.9,
-          "rating": 4.5
+          "rating": 3
         },
         {
           "id": "1015",
@@ -198,7 +198,7 @@
           "description": "Four season tea paired with mango sorbetto ice cream.",
           "image": "bt2.png",
           "price": 6.7,
-          "rating": 4.7
+          "rating": 3
         },
         {
           "id": "1016",
@@ -214,7 +214,7 @@
           "description": "A smoothie made with fresh blueberries and bananas.",
           "image": "bt6.png",
           "price": 7.5,
-          "rating": 4.8
+          "rating": 3
         },
         {
           "id": "1018",
@@ -222,7 +222,7 @@
           "description": "A rich caramel macchiato for a perfect coffee fix.",
           "image": "bt1.png",
           "price": 6.5,
-          "rating": 4.6
+          "rating": 3
         },
         {
           "id": "1019",
@@ -230,7 +230,7 @@
           "description": "A refreshing mango smoothie made with fresh mangoes.",
           "image": "bt4.png",
           "price": 7.5,
-          "rating": 4.9
+          "rating": 3
         }
       ]
     },
@@ -290,7 +290,7 @@
           "id": "bubbleTea7",
           "name": "Honeydew Bubble Tea",
           "description": "Refreshing honeydew flavor mixed with milk and boba pearls.",
-          "image": "bt7.png",
+          "image": "bt3.png",
           "price": 7.0,
           "rating": 4.5
         },
@@ -298,7 +298,7 @@
           "id": "bubbleTea8",
           "name": "Mango Bubble Tea",
           "description": "Tropical mango flavor blended with creamy milk and tapioca pearls.",
-          "image": "bt8.png",
+          "image": "bt5.png",
           "price": 7.2,
           "rating": 4.7
         },
@@ -306,7 +306,7 @@
           "id": "bubbleTea9",
           "name": "Peach Bubble Tea",
           "description": "Sweet peach flavor combined with black tea and chewy boba pearls.",
-          "image": "bt9.png",
+          "image": "bt6.png",
           "price": 6.8,
           "rating": 4.5
         }
@@ -368,7 +368,7 @@
           "id": "bubbleTea7",
           "name": "Honeydew Bubble Tea",
           "description": "Refreshing honeydew flavor mixed with milk and boba pearls.",
-          "image": "bt7.png",
+          "image": "bt3.png",
           "price": 7.0,
           "rating": 4.5
         },
@@ -376,7 +376,7 @@
           "id": "bubbleTea8",
           "name": "Mango Bubble Tea",
           "description": "Tropical mango flavor blended with creamy milk and tapioca pearls.",
-          "image": "bt8.png",
+          "image": "bt5.png",
           "price": 7.2,
           "rating": 4.7
         },
@@ -384,7 +384,7 @@
           "id": "bubbleTea9",
           "name": "Peach Bubble Tea",
           "description": "Sweet peach flavor combined with black tea and chewy boba pearls.",
-          "image": "bt9.png",
+          "image": "bt6.png",
           "price": 6.8,
           "rating": 4.5
         }
@@ -396,25 +396,25 @@
       "drinks": [
         {
           "id": "bubbleTea1",
-          "name": "Classic Bubble Milk Tea",
+          "name": "Fresh Strawberry Latte",
           "description": "Traditional black tea with creamy milk and tapioca pearls.",
-          "image": "bt1.png",
+          "image": "machi1.png",
           "price": 6.5,
-          "rating": 4.5
+          "rating": 5
         },
         {
           "id": "bubbleTea2",
-          "name": "Taro Boba Tea",
+          "name": "Black Milk Tea",
           "description": "Rich taro flavor blended with milk and chewy boba pearls.",
-          "image": "bt2.png",
+          "image": "machi2.png",
           "price": 7.0,
           "rating": 4.7
         },
         {
           "id": "bubbleTea3",
-          "name": "Strawberry Bubble Tea",
-          "description": "Fresh strawberry flavor combined with black tea and boba pearls.",
-          "image": "bt3.png",
+          "name": "Jasmine Green Tea",
+          "description": "Jasmine flavor combined with plum jello.",
+          "image": "machi3.png",
           "price": 6.8,
           "rating": 4.3
         },
@@ -422,7 +422,7 @@
           "id": "bubbleTea4",
           "name": "Matcha Green Tea Latte",
           "description": "Creamy matcha latte with a touch of sweetness and tapioca pearls.",
-          "image": "bt4.png",
+          "image": "machi5.png",
           "price": 7.5,
           "rating": 4.8
         },
@@ -430,7 +430,7 @@
           "id": "bubbleTea5",
           "name": "Brown Sugar Bubble Tea",
           "description": "Rich brown sugar syrup infused with milk and chewy boba pearls.",
-          "image": "bt5.png",
+          "image": "machi4.png",
           "price": 7.2,
           "rating": 4.6
         },
@@ -438,7 +438,7 @@
           "id": "bubbleTea6",
           "name": "Coconut Milk Tea",
           "description": "Creamy coconut milk blended with black tea and tapioca pearls.",
-          "image": "bt6.png",
+          "image": "machi5.png",
           "price": 6.9,
           "rating": 4.4
         },
@@ -446,7 +446,7 @@
           "id": "bubbleTea7",
           "name": "Honeydew Bubble Tea",
           "description": "Refreshing honeydew flavor mixed with milk and boba pearls.",
-          "image": "bt7.png",
+          "image": "machi1.png",
           "price": 7.0,
           "rating": 4.5
         },
@@ -454,7 +454,7 @@
           "id": "bubbleTea8",
           "name": "Mango Bubble Tea",
           "description": "Tropical mango flavor blended with creamy milk and tapioca pearls.",
-          "image": "bt8.png",
+          "image": "machi3.png",
           "price": 7.2,
           "rating": 4.7
         },
@@ -462,7 +462,7 @@
           "id": "bubbleTea9",
           "name": "Peach Bubble Tea",
           "description": "Sweet peach flavor combined with black tea and chewy boba pearls.",
-          "image": "bt9.png",
+          "image": "machi2.png",
           "price": 6.8,
           "rating": 4.5
         }
@@ -524,7 +524,7 @@
           "id": "bubbleTea7",
           "name": "Honeydew Bubble Tea",
           "description": "Refreshing honeydew flavor mixed with milk and boba pearls.",
-          "image": "bt7.png",
+          "image": "bt3.png",
           "price": 7.0,
           "rating": 4.5
         },
@@ -532,7 +532,7 @@
           "id": "bubbleTea8",
           "name": "Mango Bubble Tea",
           "description": "Tropical mango flavor blended with creamy milk and tapioca pearls.",
-          "image": "bt8.png",
+          "image": "bt2.png",
           "price": 7.2,
           "rating": 4.7
         },
@@ -540,7 +540,7 @@
           "id": "bubbleTea9",
           "name": "Peach Bubble Tea",
           "description": "Sweet peach flavor combined with black tea and chewy boba pearls.",
-          "image": "bt9.png",
+          "image": "bt1.png",
           "price": 6.8,
           "rating": 4.5
         }
@@ -602,7 +602,7 @@
           "id": "bubbleTea7",
           "name": "Honeydew Bubble Tea",
           "description": "Refreshing honeydew flavor mixed with milk and boba pearls.",
-          "image": "bt7.png",
+          "image": "bt3.png",
           "price": 7.0,
           "rating": 4.5
         },
@@ -610,7 +610,7 @@
           "id": "bubbleTea8",
           "name": "Mango Bubble Tea",
           "description": "Tropical mango flavor blended with creamy milk and tapioca pearls.",
-          "image": "bt8.png",
+          "image": "bt5.png",
           "price": 7.2,
           "rating": 4.7
         },
@@ -618,7 +618,7 @@
           "id": "bubbleTea9",
           "name": "Peach Bubble Tea",
           "description": "Sweet peach flavor combined with black tea and chewy boba pearls.",
-          "image": "bt9.png",
+          "image": "bt6.png",
           "price": 6.8,
           "rating": 4.5
         }
@@ -680,7 +680,7 @@
           "id": "bubbleTea7",
           "name": "Honeydew Bubble Tea",
           "description": "Refreshing honeydew flavor mixed with milk and boba pearls.",
-          "image": "bt7.png",
+          "image": "bt3.png",
           "price": 7.0,
           "rating": 4.5
         },
@@ -688,7 +688,7 @@
           "id": "bubbleTea8",
           "name": "Mango Bubble Tea",
           "description": "Tropical mango flavor blended with creamy milk and tapioca pearls.",
-          "image": "bt8.png",
+          "image": "bt5.png",
           "price": 7.2,
           "rating": 4.7
         },
@@ -696,7 +696,7 @@
           "id": "bubbleTea9",
           "name": "Peach Bubble Tea",
           "description": "Sweet peach flavor combined with black tea and chewy boba pearls.",
-          "image": "bt9.png",
+          "image": "bt6.png",
           "price": 6.8,
           "rating": 4.5
         }
@@ -836,7 +836,7 @@
           "id": "bubbleTea7",
           "name": "Honeydew Bubble Tea",
           "description": "Refreshing honeydew flavor mixed with milk and boba pearls.",
-          "image": "bt7.png",
+          "image": "bt3.png",
           "price": 7.0,
           "rating": 4.5
         },
@@ -844,7 +844,7 @@
           "id": "bubbleTea8",
           "name": "Mango Bubble Tea",
           "description": "Tropical mango flavor blended with creamy milk and tapioca pearls.",
-          "image": "bt8.png",
+          "image": "bt5.png",
           "price": 7.2,
           "rating": 4.7
         },
@@ -852,7 +852,7 @@
           "id": "bubbleTea9",
           "name": "Peach Bubble Tea",
           "description": "Sweet peach flavor combined with black tea and chewy boba pearls.",
-          "image": "bt9.png",
+          "image": "bt6.png",
           "price": 6.8,
           "rating": 4.5
         }
@@ -992,7 +992,7 @@
           "id": "bubbleTea7",
           "name": "Honeydew Bubble Tea",
           "description": "Refreshing honeydew flavor mixed with milk and boba pearls.",
-          "image": "bt7.png",
+          "image": "bt3.png",
           "price": 7.0,
           "rating": 4.5
         },
@@ -1000,7 +1000,7 @@
           "id": "bubbleTea8",
           "name": "Mango Bubble Tea",
           "description": "Tropical mango flavor blended with creamy milk and tapioca pearls.",
-          "image": "bt8.png",
+          "image": "bt5.png",
           "price": 7.2,
           "rating": 4.7
         },
@@ -1008,7 +1008,7 @@
           "id": "bubbleTea9",
           "name": "Peach Bubble Tea",
           "description": "Sweet peach flavor combined with black tea and chewy boba pearls.",
-          "image": "bt9.png",
+          "image": "bt6.png",
           "price": 6.8,
           "rating": 4.5
         }
@@ -1070,7 +1070,7 @@
           "id": "bubbleTea7",
           "name": "Honeydew Bubble Tea",
           "description": "Refreshing honeydew flavor mixed with milk and boba pearls.",
-          "image": "bt7.png",
+          "image": "bt3.png",
           "price": 7.0,
           "rating": 4.5
         },
@@ -1078,7 +1078,7 @@
           "id": "bubbleTea8",
           "name": "Mango Bubble Tea",
           "description": "Tropical mango flavor blended with creamy milk and tapioca pearls.",
-          "image": "bt8.png",
+          "image": "bt5.png",
           "price": 7.2,
           "rating": 4.7
         },
@@ -1086,7 +1086,7 @@
           "id": "bubbleTea9",
           "name": "Peach Bubble Tea",
           "description": "Sweet peach flavor combined with black tea and chewy boba pearls.",
-          "image": "bt9.png",
+          "image": "bt6.png",
           "price": 6.8,
           "rating": 4.5
         }
@@ -1148,7 +1148,7 @@
           "id": "bubbleTea7",
           "name": "Honeydew Bubble Tea",
           "description": "Refreshing honeydew flavor mixed with milk and boba pearls.",
-          "image": "bt7.png",
+          "image": "bt3.png",
           "price": 7.0,
           "rating": 4.5
         },
@@ -1156,7 +1156,7 @@
           "id": "bubbleTea8",
           "name": "Mango Bubble Tea",
           "description": "Tropical mango flavor blended with creamy milk and tapioca pearls.",
-          "image": "bt8.png",
+          "image": "bt5.png",
           "price": 7.2,
           "rating": 4.7
         },
@@ -1164,7 +1164,7 @@
           "id": "bubbleTea9",
           "name": "Peach Bubble Tea",
           "description": "Sweet peach flavor combined with black tea and chewy boba pearls.",
-          "image": "bt9.png",
+          "image": "bt6.png",
           "price": 6.8,
           "rating": 4.5
         }
@@ -1226,7 +1226,7 @@
           "id": "bubbleTea7",
           "name": "Honeydew Bubble Tea",
           "description": "Refreshing honeydew flavor mixed with milk and boba pearls.",
-          "image": "bt7.png",
+          "image": "bt3.png",
           "price": 7.0,
           "rating": 4.5
         },
@@ -1234,7 +1234,7 @@
           "id": "bubbleTea8",
           "name": "Mango Bubble Tea",
           "description": "Tropical mango flavor blended with creamy milk and tapioca pearls.",
-          "image": "bt8.png",
+          "image": "bt5.png",
           "price": 7.2,
           "rating": 4.7
         },
@@ -1242,7 +1242,7 @@
           "id": "bubbleTea9",
           "name": "Peach Bubble Tea",
           "description": "Sweet peach flavor combined with black tea and chewy boba pearls.",
-          "image": "bt9.png",
+          "image": "bt6.png",
           "price": 6.8,
           "rating": 4.5
         }
@@ -1304,7 +1304,7 @@
           "id": "bubbleTea7",
           "name": "Honeydew Bubble Tea",
           "description": "Refreshing honeydew flavor mixed with milk and boba pearls.",
-          "image": "bt7.png",
+          "image": "bt3.png",
           "price": 7.0,
           "rating": 4.5
         },
@@ -1312,7 +1312,7 @@
           "id": "bubbleTea8",
           "name": "Mango Bubble Tea",
           "description": "Tropical mango flavor blended with creamy milk and tapioca pearls.",
-          "image": "bt8.png",
+          "image": "bt5.png",
           "price": 7.2,
           "rating": 4.7
         },
@@ -1320,7 +1320,7 @@
           "id": "bubbleTea9",
           "name": "Peach Bubble Tea",
           "description": "Sweet peach flavor combined with black tea and chewy boba pearls.",
-          "image": "bt9.png",
+          "image": "bt6.png",
           "price": 6.8,
           "rating": 4.5
         }
@@ -1382,7 +1382,7 @@
           "id": "bubbleTea7",
           "name": "Honeydew Bubble Tea",
           "description": "Refreshing honeydew flavor mixed with milk and boba pearls.",
-          "image": "bt7.png",
+          "image": "bt3.png",
           "price": 7.0,
           "rating": 4.5
         },
@@ -1390,7 +1390,7 @@
           "id": "bubbleTea8",
           "name": "Mango Bubble Tea",
           "description": "Tropical mango flavor blended with creamy milk and tapioca pearls.",
-          "image": "bt8.png",
+          "image": "bt5.png",
           "price": 7.2,
           "rating": 4.7
         },
@@ -1398,7 +1398,7 @@
           "id": "bubbleTea9",
           "name": "Peach Bubble Tea",
           "description": "Sweet peach flavor combined with black tea and chewy boba pearls.",
-          "image": "bt9.png",
+          "image": "bt6.png",
           "price": 6.8,
           "rating": 4.5
         }
@@ -1460,7 +1460,7 @@
           "id": "bubbleTea7",
           "name": "Honeydew Bubble Tea",
           "description": "Refreshing honeydew flavor mixed with milk and boba pearls.",
-          "image": "bt7.png",
+          "image": "bt3.png",
           "price": 7.0,
           "rating": 4.5
         },
@@ -1468,7 +1468,7 @@
           "id": "bubbleTea8",
           "name": "Mango Bubble Tea",
           "description": "Tropical mango flavor blended with creamy milk and tapioca pearls.",
-          "image": "bt8.png",
+          "image": "bt5.png",
           "price": 7.2,
           "rating": 4.7
         },
@@ -1476,7 +1476,7 @@
           "id": "bubbleTea9",
           "name": "Peach Bubble Tea",
           "description": "Sweet peach flavor combined with black tea and chewy boba pearls.",
-          "image": "bt9.png",
+          "image": "bt6.png",
           "price": 6.8,
           "rating": 4.5
         }
@@ -1538,7 +1538,7 @@
           "id": "bubbleTea7",
           "name": "Honeydew Bubble Tea",
           "description": "Refreshing honeydew flavor mixed with milk and boba pearls.",
-          "image": "bt7.png",
+          "image": "bt3.png",
           "price": 7.0,
           "rating": 4.5
         },
@@ -1546,7 +1546,7 @@
           "id": "bubbleTea8",
           "name": "Mango Bubble Tea",
           "description": "Tropical mango flavor blended with creamy milk and tapioca pearls.",
-          "image": "bt8.png",
+          "image": "bt5.png",
           "price": 7.2,
           "rating": 4.7
         },
@@ -1554,7 +1554,7 @@
           "id": "bubbleTea9",
           "name": "Peach Bubble Tea",
           "description": "Sweet peach flavor combined with black tea and chewy boba pearls.",
-          "image": "bt9.png",
+          "image": "bt6.png",
           "price": 6.8,
           "rating": 4.5
         }

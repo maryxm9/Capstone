@@ -19,7 +19,7 @@ function RatingsPage() {
 
   return (
     <div>
-      <h1>Bubble Tea Ratings</h1>
+      <h1>Bubble Tea Rankings</h1>
       <div className="bubble-tea-list">
         <ul className="drink-container">
           {allDrinks.sort(compareRatings).map((drink, index) => (
